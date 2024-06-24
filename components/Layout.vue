@@ -29,10 +29,12 @@ let toView = (view) => {
   removeViews();
   if (view === "feed") {
     feed.value.classList.add("active");
+    confirm('User feed is not available on this Demo. Get access by joining our waitlist and by becoming a Beta Tester.')
   } else if (view === "search") {
     search.value.classList.add("active");
   } else if (view === "profile") {
     profile.value.classList.add("active");
+    confirm('User profile is not available on this Demo. Get access by joining our waitlist and by becoming a Beta Tester.')
   }
 };
 

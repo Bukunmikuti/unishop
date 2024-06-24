@@ -58,7 +58,7 @@ const powersearch = () => {
     allStores.value = results
     console.log(allStores.value)
   } else {
-    console.log('EMPTY')
+    confirm("For this demo, we only accept search categories in Fashion, Electronics and Beauty. Try 'Red shoes and belt' or 'Laptop sellers in Biobaku' ");
   }
 }
 
