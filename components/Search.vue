@@ -63,8 +63,7 @@ const powersearch = () => {
 }
 
 const toShop = () => {
-  const router = useRouter();
-  router.go('/zara')
+  return navigateTo('/zara')
 }
 </script>
 
